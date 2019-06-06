@@ -15,8 +15,8 @@ import java.util.Properties;
 public class DataSourceInitializer {
     private final Logger logger = LoggerFactory.getLogger(getClass());
 
-    protected String databaseUrl = "jdbc:postgresql://localhost:5432/bill_splitting_dev";
-    protected String databaseUsername = "admin";
+    protected String databaseUrl = "jdbc:postgresql://localhost:5431/bill_splitting_dev";
+    protected String databaseUsername = "family";
     protected String databasePassword = "password";
     protected String driverClassname = "org.postgresql.ds.PGSimpleDataSource";
 

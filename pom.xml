@@ -180,11 +180,11 @@
             <plugin>
                 <groupId>org.flywaydb</groupId>
                 <artifactId>flyway-maven-plugin</artifactId>
-                <version>${flyway.version}</version>
+                <version>5.2.4</version>
                 <configuration>
                     <driver>org.postgresql.Driver</driver>
-                    <url>jdbc:postgresql://localhost:5432/bill_splitting_dev</url>
-                    <user>admin</user>
+                    <url>jdbc:postgresql://localhost:5431/bill_splitting_dev</url>
+                    <user>family</user>
                     <password>password</password>
                     <locations>
                         <location>db/migration</location>

@@ -10,7 +10,7 @@ import static javax.persistence.GenerationType.SEQUENCE;
 @Table(name = "users")
 public class User {
 
-    @javax.persistence.Id
+    @Id
     @GeneratedValue(strategy=SEQUENCE, generator = "users_id_seq")
     @SequenceGenerator(name="users_id_seq", sequenceName = "users_id_seq", allocationSize = 1)
     private Long Id;

@@ -17,7 +17,7 @@ public class Bill {
     private String type;
 
     @Column(name = "amount")
-    private Double amount;
+    private int amount;
 
     @ManyToOne(fetch = FetchType.LAZY)
     @JoinColumn(name = "user_id")
