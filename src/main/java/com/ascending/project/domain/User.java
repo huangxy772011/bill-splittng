@@ -30,6 +30,6 @@ public class User {
     @Column
     private String email;
 
-    @OneToMany(fetch = FetchType.LAZY, mappedBy = "bill",cascade = CascadeType.ALL)
+    @OneToMany(fetch = FetchType.LAZY, mappedBy = "user",cascade = CascadeType.ALL)
     private List<Bill> bill;
 }

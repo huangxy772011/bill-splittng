@@ -1,0 +1,1 @@
+ALTER SEQUENCE bills_id_sequence rename to bills_id_seq;
