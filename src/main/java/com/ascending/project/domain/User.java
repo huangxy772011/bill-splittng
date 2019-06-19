@@ -31,5 +31,5 @@ public class User {
     private String email;
 
     @OneToMany(fetch = FetchType.LAZY, mappedBy = "user",cascade = CascadeType.ALL)
-    private List<Bill> bill;
+    private List<Bill> bills;
 }
